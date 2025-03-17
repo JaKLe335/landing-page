@@ -8,10 +8,28 @@ ul {
 
 a {
     text-decoration: none;
+    color: #B1B1B1;
 }
 
 div {
     display: flex;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+button {
+    background-color: #FCA421;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
 body {
@@ -19,56 +37,77 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
+    margin: 0px;
 }
 
 .header {
+    flex: 1;
     display: flex;
     align-items: center;
+    background-color: #1F1F1F;
 }
 
 .logo {
     display: block;
     margin-right: auto;
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 100px;
+    color: #fff;
 }
 
 .header ul {
     margin-left: auto;
-    padding: 0px 50px 0px 0px;
+    padding: 0px 100px 0px 0px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
-.content1 {
-    display: flex;
+.content {
+    flex: 1;
+    padding: 50px 100px;
+}
+
+.one {
     align-items: center;
+    background-color: #1F1F1F;
+    gap: 30px;
 }
 
 .main-heading {
-    display: flex;
+    flex: 2;
     flex-direction: column;
     justify-content: center;
 }
 
-.main-heading p, h1 {
+.main-heading p {
+    color: #B1B1B1;
+}
+
+.main-heading p, .main-heading h1 {
+    flex: 1;
     margin: 5px 0px;
 }
 
-.content2 {
-    display: flex;
+.one img {
+    flex: 1;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.two {
     flex-direction: column;
     align-items: center;
 }
 
 .informations {
-    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 .items {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 150px;
 }
 
 .items p {
@@ -77,29 +116,59 @@ body {
 
 .illustrations {
     display: block;
-    width: 100px;
-    height: 100px;
-    border: solid;
+    width: 150px;
+    height: 150px;
+    border: solid #FCA421;
+    border-radius: 5px;
     flex-shrink: 0;
 }
 
-.content3 {
-    display: flex;
+.three {
+    justify-content: center;
+    align-items: center;
+    background-color: #B1B1B1;
+}
+
+.three div {
+    display: block;
+    flex-basis: 1200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.quote {
+    margin: 0px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.thor {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.four {
     justify-content: center;
     align-items: center;
 }
 
-.content3 div {
-    display: block;
-    flex-basis: 1200px;
+.calltoaction-container {
+    background-color: #FCA421;
+    padding: 25px 50px;
+    align-items: center;
+    border-radius: 5px;
 }
 
-.content4 {
-    display: flex;
+.four button {
+    border: #1F1F1F
+     solid 2px;
 }
 
 .calltoaction {
     flex-direction: column;
+    margin-right: 200px;
 }
 
 .calltoaction h5 {
@@ -108,4 +177,7 @@ body {
 
 .footer {
     justify-content: center;
+    color: #B1B1B1;
+    background-color: #1F1F1F;
+    padding: 30px;
 }
